@@ -17,4 +17,5 @@ public interface MessageObserver {
      * @param message message
      */
     void onMessageDispatched(String msg,@Nullable Message message);
+
 }

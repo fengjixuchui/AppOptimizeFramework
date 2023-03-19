@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccbbdd"
+    tools:context=".MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_test"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_centerInParent="true"
+        android:text="主页"
+        android:textColor="#0054dd"
+        android:textSize="24sp"
+
+        />
+
+</RelativeLayout>

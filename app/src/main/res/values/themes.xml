@@ -13,4 +13,8 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Base.MainActivity" parent="Theme.AppOptimizeFramework">
+        <item name="backgroundColor">@color/purple_200</item>
+    </style>
 </resources>
