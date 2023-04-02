@@ -6,13 +6,15 @@ public interface LooperMessageObserver {
      *
      * <p> The token type is not specified to allow the implementation to specify its own type.
      *
+     * @param token Token obtained by previously calling
+     *              {@link Looper.Observer#messageDispatchStarting} on the same Observer instance.
      * @return a token used for collecting telemetry when dispatching a single message.
      *         The token token must be passed back exactly once to either
      *         {@link Looper.Observer#messageDispatched} or {@link Looper.Observer#dispatchingThrewException}
      *         and must not be reused again.
      *
      */
-    Object messageDispatchStarting();
+    Object messageDispatchStarting(Object token);
 
     /**
      * Called when a message was processed by a Handler.
